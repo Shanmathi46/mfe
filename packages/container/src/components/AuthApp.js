@@ -3,6 +3,7 @@ import React ,{useRef, useEffect}from 'react';
 import { useHistory } from 'react-router-dom';
 
 export default ({onSignIn})=>{
+  console.log('AuthApp loaded');
   const ref=useRef(null);
   const history=useHistory();
 
